@@ -24,11 +24,14 @@ function setup() {
 
 function draw() {
   background(255);
+
   textSize(20)
   stroke(0)
   text("Made By Your Student :-",100,200);
   textFont("mono")
   text("AVIK",100,230)
+  text("just drag the mouse to view inside the card",20,300);
+ 
   if (gameState ==="start"){
     fill("red")
     noStroke();
